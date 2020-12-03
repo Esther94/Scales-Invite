@@ -106,16 +106,13 @@ font-size: x-small;  }
     cursor: pointer;
   }
   
-  /* tablet
-@media only screen and (max-device-width:760px){
-    .mobile{
-       display: none; 
+   /* tablet */
+  @media only screen and (max-device-width:760px) {
+    .button {
+       align-content: center; 
+     }
+    .bg-image {
+      background-size: cover;
+     }
+     
     }
-    .jumbotron{
-      display: none;
-    }
-    .btn{
-      display: grid;
-      grid-template-columns: repeat(1fr);
-    } */
-   
