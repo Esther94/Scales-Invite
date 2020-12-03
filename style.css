@@ -108,3 +108,13 @@ font-size: x-small;  }
      }
 
     }
+
+    @media only screen and (max-device-width:450px) {
+        .button {
+           align-content: center; 
+         }
+        .bg-image {
+          background-size: 100%;
+         }
+    
+        }
