@@ -1,8 +1,4 @@
-/* :root {
-    --modal-color:#ff0000;
-  }  */
-    
-  .bg-image {
+.bg-image {
     background-image: url(images/scales-invite-card.jpeg);
     background-size: 33%;
   }
@@ -33,7 +29,6 @@
       position: relative;
   }
 
-  
   .button {
     background:#800080;
     padding: 1em 2em;
@@ -42,9 +37,6 @@
     border-radius: 5px;
     cursor: pointer;
     position: fixed;
-    /* margin-top: 25%; */
-     /* margin-left: 1%;  */
-    /* align-content: center; */
   }
   
   .button:hover {
@@ -114,5 +106,5 @@ font-size: x-small;  }
     .bg-image {
       background-size: cover;
      }
-     
+
     }
